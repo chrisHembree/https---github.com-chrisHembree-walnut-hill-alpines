@@ -8,7 +8,9 @@ from django.views.generic import CreateView
 from django.contrib.auth.models import User
 from .forms import SignUpForm
 
-
+from django.shortcuts import render
+from .models import YourModel
+from .forms import YourModelFilter
 
 
 
